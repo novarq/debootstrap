@@ -29,7 +29,7 @@ sudo apt install -y debootstrap qemu-user-static coreutils tar xz-utils
 ### Hardware Requirements
 - Novarq Tactical 1000 switch
 - USB storage device (8GB+ recommended)
-- Serial console access (see [Serial Console Guide](serial-console-access.md))
+- Consult Serial console access guide
 - Network connectivity for the switch
 
 ## Building Your Custom Distribution
