@@ -51,14 +51,14 @@ The script supports Ubuntu Noble (24.04 LTS) and Debian Bookworm (12) targets. B
 #### For Ubuntu Noble
 ```bash
 sudo ./novarq-instant-rootfs.sh tactical1000 noble
-# example with added packages
+# Example with added packages
 # sudo ./novarq-instant-rootfs.sh tactical1000 noble curl vim git
 ```
 
 #### For Debian Bookworm
 ```bash
 sudo ./novarq-instant-rootfs.sh tactical1000 bookworm
-# example with added packages
+# Example with added packages
 # sudo ./novarq-instant-rootfs.sh tactical1000 bookworm curl vim git
 ```
 
@@ -108,7 +108,7 @@ rename output/images/uImage-lan969x.itb into uImage-lan969x_initramfs.itb
 
 Copy your `tactical1000-[distro].tar.xz` archive (built in Step 2), `uImage-lan969x.itb` kernel image (built in Step 3) and  `uImage-lan969x_initramfs.itb` (built in Step 4) to USB storage.
 
-Connect via serial console following the [Serial Console Guide](https://github.com/novarq/tactical-1000/blob/main/docs/serial-console-access.md).
+Connect via serial console following the Serial console access guide.
 
 Access the U-Boot prompt during boot process through your serial console connection (interrupt boot sequence) to boot from the initramfs image.
 
